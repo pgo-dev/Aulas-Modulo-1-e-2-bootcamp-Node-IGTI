@@ -1,0 +1,587 @@
+2022-05-02T16:21:56.561Z [my-bank-api] info: API Started
+2022-05-02T16:22:50.281Z [my-bank-api] error: ENOENT: no such file or directory, open 'c:\Users\pgoen\OneDrive\Documentos\Cursos Programação\BootCamp Node.JS\Módulo 1\aula3_apibanco\accounts.json'
+2022-05-02T16:25:35.298Z [my-bank-api] info: API STARTED, .json created
+2022-05-02T16:26:05.526Z [my-bank-api] error: POST - /account ENOENT: no such file or directory, open 'c:\Users\pgoen\OneDrive\Documentos\Cursos Programação\BootCamp Node.JS\Módulo 1\aula3_apibanco\accounts.json'
+2022-05-02T16:31:43.949Z [my-bank-api] info: API STARTED, .json created
+2022-05-02T16:31:50.909Z [my-bank-api] info: GET /account
+2022-05-02T16:32:10.831Z [my-bank-api] info: POST /account - {"id":1,"name":"Eme Rome","balance":2322}
+2022-05-02T16:32:14.986Z [my-bank-api] info: GET /account
+2022-05-02T16:32:43.277Z [my-bank-api] info: POST /account - {"id":2,"name":"Lily Charles","balance":2300}
+2022-05-02T16:32:47.504Z [my-bank-api] info: GET /account
+2022-05-02T16:32:54.370Z [my-bank-api] info: GET /account
+2022-05-02T16:33:17.661Z [my-bank-api] info: GET /account
+2022-05-02T16:33:23.269Z [my-bank-api] info: GET /account
+2022-05-02T16:33:50.774Z [my-bank-api] info: POST /account - {"id":3,"name":"Lydon FPS","balance":2300}
+2022-05-02T16:34:49.880Z [my-bank-api] error: DELETE - /account account is not defined
+2022-05-02T16:35:09.207Z [my-bank-api] info: GET /account
+2022-05-02T16:35:16.972Z [my-bank-api] error: DELETE - /account account is not defined
+2022-05-02T16:35:48.461Z [my-bank-api] error: DELETE - /account account is not defined
+2022-05-02T16:35:53.808Z [my-bank-api] info: GET /account
+2022-05-02T16:36:46.399Z [my-bank-api] info: API Started
+2022-05-02T16:36:52.772Z [my-bank-api] info: DELETE /account - {"id":1,"name":"Eme Rome","balance":2322}
+2022-05-02T17:33:01.602Z [my-bank-api] info: API Started
+2022-05-02T17:33:14.269Z [my-bank-api] info: API Started
+2022-05-02T17:33:21.112Z [my-bank-api] info: API Started
+2022-05-02T17:33:26.323Z [my-bank-api] info: API Started
+2022-05-02T17:33:30.774Z [my-bank-api] info: API Started
+2022-05-02T17:33:38.478Z [my-bank-api] info: API Started
+2022-05-02T17:33:46.035Z [my-bank-api] info: API Started
+2022-05-02T17:33:59.236Z [my-bank-api] info: API Started
+2022-05-02T17:34:06.719Z [my-bank-api] info: API Started
+2022-05-02T17:34:11.634Z [my-bank-api] info: API Started
+2022-05-02T17:34:20.287Z [my-bank-api] info: API Started
+2022-05-02T17:35:49.176Z [my-bank-api] info: API Started
+2022-05-02T17:36:35.823Z [my-bank-api] info: API Started
+2022-05-02T17:37:43.389Z [my-bank-api] info: API Started
+2022-05-02T17:38:54.154Z [my-bank-api] info: API Started
+2022-05-02T17:39:01.439Z [my-bank-api] info: API Started
+2022-05-02T17:39:03.289Z [my-bank-api] error: POST - /account Fill both name and balance
+2022-05-02T17:39:23.868Z [my-bank-api] error: POST - /account Fill both name and balance
+2022-05-02T17:40:00.203Z [my-bank-api] info: API Started
+2022-05-02T17:40:08.096Z [my-bank-api] info: API Started
+2022-05-02T17:40:16.899Z [my-bank-api] error: POST - /account Fill both name and balance
+2022-05-02T17:40:34.813Z [my-bank-api] info: API Started
+2022-05-02T17:40:37.715Z [my-bank-api] info: API Started
+2022-05-02T17:40:40.248Z [my-bank-api] info: POST /account - {"id":1,"name":"Lydon FPS","balance":0}
+2022-05-02T17:40:50.649Z [my-bank-api] error: POST - /account Fill both name and balance
+2022-05-02T17:41:07.916Z [my-bank-api] info: POST /account - {"id":2,"name":"Elite Death","balance":124}
+2022-05-02T17:41:52.859Z [my-bank-api] info: API Started
+2022-05-02T17:42:00.611Z [my-bank-api] info: API Started
+2022-05-02T17:42:49.129Z [my-bank-api] info: POST /account - {"id":3,"name":"Elite Death","balance":124}
+2022-05-02T17:43:38.817Z [my-bank-api] info: API Started
+2022-05-02T17:43:49.140Z [my-bank-api] info: PUT /account - {"id":23,"name":"Lydon FPS","balance":12}
+2022-05-02T17:45:16.949Z [my-bank-api] info: API Started
+2022-05-02T17:45:22.734Z [my-bank-api] info: API Started
+2022-05-02T17:45:45.090Z [my-bank-api] info: API Started
+2022-05-02T17:45:50.050Z [my-bank-api] info: API Started
+2022-05-02T17:45:57.470Z [my-bank-api] info: API Started
+2022-05-02T17:46:03.301Z [my-bank-api] info: API Started
+2022-05-02T17:46:08.023Z [my-bank-api] info: API Started
+2022-05-02T17:46:15.636Z [my-bank-api] info: API Started
+2022-05-02T17:46:16.894Z [my-bank-api] error: PUT - /account Wrong ID
+2022-05-02T17:46:27.513Z [my-bank-api] info: GET /account
+2022-05-02T17:46:39.714Z [my-bank-api] info: DELETE /account - {"id":3,"name":"Elite Death","balance":124}
+2022-05-02T17:46:45.810Z [my-bank-api] info: GET /account
+2022-05-02T17:47:24.596Z [my-bank-api] info: API Started
+2022-05-02T17:47:46.750Z [my-bank-api] error: PUT - /account Fill both name and balance
+2022-05-02T17:48:31.209Z [my-bank-api] info: PUT /account - {"id":2,"name":"Elite Death","balance":1256}
+2022-05-02T17:49:00.954Z [my-bank-api] info: API Started
+2022-05-02T17:49:05.527Z [my-bank-api] info: API Started
+2022-05-02T17:49:09.235Z [my-bank-api] info: API Started
+2022-05-02T17:49:12.082Z [my-bank-api] info: API Started
+2022-05-02T17:49:14.127Z [my-bank-api] info: API Started
+2022-05-02T17:49:21.949Z [my-bank-api] info: API Started
+2022-05-02T17:49:23.809Z [my-bank-api] info: API Started
+2022-05-02T17:49:28.661Z [my-bank-api] info: API Started
+2022-05-02T17:49:34.976Z [my-bank-api] info: API Started
+2022-05-02T17:49:44.892Z [my-bank-api] info: API Started
+2022-05-02T17:49:53.578Z [my-bank-api] info: API Started
+2022-05-02T17:50:01.684Z [my-bank-api] info: API Started
+2022-05-02T17:50:03.680Z [my-bank-api] info: API Started
+2022-05-02T17:50:06.906Z [my-bank-api] info: API Started
+2022-05-02T17:50:10.411Z [my-bank-api] info: API Started
+2022-05-02T17:50:12.482Z [my-bank-api] info: API Started
+2022-05-02T17:50:15.954Z [my-bank-api] info: API Started
+2022-05-02T17:50:17.869Z [my-bank-api] info: API Started
+2022-05-02T17:50:20.649Z [my-bank-api] info: API Started
+2022-05-02T17:50:28.744Z [my-bank-api] info: API Started
+2022-05-02T17:50:30.465Z [my-bank-api] info: API Started
+2022-05-02T17:50:33.725Z [my-bank-api] info: API Started
+2022-05-02T17:51:15.804Z [my-bank-api] info: API Started
+2022-05-02T17:51:27.337Z [my-bank-api] info: API Started
+2022-05-02T17:51:32.656Z [my-bank-api] info: API Started
+2022-05-02T17:51:37.353Z [my-bank-api] info: API Started
+2022-05-02T17:51:55.774Z [my-bank-api] info: API Started
+2022-05-02T17:51:59.272Z [my-bank-api] info: API Started
+2022-05-02T17:52:43.780Z [my-bank-api] info: API Started
+2022-05-02T17:52:47.853Z [my-bank-api] info: API Started
+2022-05-02T17:52:51.452Z [my-bank-api] info: API Started
+2022-05-02T17:53:34.132Z [my-bank-api] info: API Started
+2022-05-02T17:53:42.579Z [my-bank-api] info: API Started
+2022-05-02T17:53:46.662Z [my-bank-api] info: API Started
+2022-05-02T17:54:00.768Z [my-bank-api] error: PATCH - /account Fill both ID and balance
+2022-05-02T17:54:11.810Z [my-bank-api] info: GET /account
+2022-05-02T17:54:19.114Z [my-bank-api] error: PATCH - /account Wrong ID
+2022-05-02T17:55:38.889Z [my-bank-api] info: API Started
+2022-05-02T17:55:51.197Z [my-bank-api] info: API Started
+2022-05-02T17:55:54.755Z [my-bank-api] info: API Started
+2022-05-02T17:56:01.810Z [my-bank-api] error: PUT - /account Fill ID, name and balance
+2022-05-02T17:56:12.975Z [my-bank-api] error: PUT - /account Wrong ID
+2022-05-02T17:56:22.484Z [my-bank-api] error: PUT - /account Wrong ID
+2022-05-02T17:56:25.967Z [my-bank-api] info: GET /account
+2022-05-02T17:56:32.544Z [my-bank-api] info: PUT /account - {"id":2,"name":"Elite Death","balance":1}
+2022-05-02T17:56:37.411Z [my-bank-api] info: GET /account
+2022-05-02T18:01:22.506Z [my-bank-api] info: API Started
+2022-05-02T18:02:04.076Z [my-bank-api] info: API Started
+2022-05-02T18:02:10.211Z [my-bank-api] info: API Started
+2022-05-02T18:03:09.472Z [my-bank-api] info: GET /account
+2022-05-02T18:03:29.792Z [my-bank-api] info: GET /account
+2022-05-02T18:09:17.385Z [my-bank-api] info: GET /account
+2022-05-02T18:11:20.609Z [my-bank-api] info: API Started
+2022-05-02T18:11:23.066Z [my-bank-api] info: GET /account
+2022-05-02T18:12:13.098Z [my-bank-api] info: API Started
+2022-05-02T18:12:13.917Z [my-bank-api] info: GET /account
+2022-05-02T18:13:18.057Z [my-bank-api] info: API Started
+2022-05-02T18:13:46.594Z [my-bank-api] info: API Started
+2022-05-02T18:14:16.455Z [my-bank-api] info: API Started
+2022-05-02T18:14:19.104Z [my-bank-api] info: GET /account
+2022-05-02T18:14:33.623Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Lydon FPS","balance":0}
+2022-05-02T18:57:27.100Z [my-bank-api] info: API Started
+2022-05-02T19:01:36.561Z [my-bank-api] info: API Started
+2022-05-04T12:32:01.752Z [my-bank-api] info: API Started
+2022-05-04T12:32:18.061Z [my-bank-api] info: GET /account
+2022-05-04T12:32:51.733Z [my-bank-api] error: POST - /account readFile is not defined
+2022-05-04T12:33:20.542Z [my-bank-api] info: API Started
+2022-05-04T12:33:27.168Z [my-bank-api] info: API Started
+2022-05-04T12:33:32.339Z [my-bank-api] info: POST /account - {"id":4,"name":"Fulano","balance":124322}
+2022-05-04T12:33:36.642Z [my-bank-api] info: GET /account
+2022-05-04T12:38:35.428Z [my-bank-api] info: API Started
+2022-05-04T12:38:46.713Z [my-bank-api] info: API Started
+2022-05-04T12:38:50.683Z [my-bank-api] info: API Started
+2022-05-04T12:38:53.801Z [my-bank-api] info: API Started
+2022-05-04T12:39:01.814Z [my-bank-api] info: API Started
+2022-05-04T12:39:05.014Z [my-bank-api] info: API Started
+2022-05-04T12:39:15.890Z [my-bank-api] info: GET /account
+2022-05-04T12:39:32.272Z [my-bank-api] info: API Started
+2022-05-04T12:39:35.726Z [my-bank-api] info: API Started
+2022-05-04T12:39:50.691Z [my-bank-api] info: POST /account - {"id":5,"name":"Ciclano","balance":127}
+2022-05-04T12:39:55.689Z [my-bank-api] info: GET /account
+2022-05-04T12:40:58.921Z [my-bank-api] info: API Started
+2022-05-04T12:41:26.405Z [my-bank-api] info: API Started
+2022-05-04T12:42:26.365Z [my-bank-api] info: API Started
+2022-05-04T12:42:47.515Z [my-bank-api] info: API Started
+2022-05-04T12:43:08.006Z [my-bank-api] info: API Started
+2022-05-04T12:43:45.911Z [my-bank-api] info: API Started
+2022-05-04T12:43:51.346Z [my-bank-api] info: API Started
+2022-05-04T12:43:59.591Z [my-bank-api] info: API Started
+2022-05-04T12:44:07.607Z [my-bank-api] info: API Started
+2022-05-04T12:45:38.257Z [my-bank-api] info: API Started
+2022-05-04T12:45:44.308Z [my-bank-api] info: DELETE /account - {"id":1,"name":"Lydon FPS","balance":0}
+2022-05-04T12:46:01.005Z [my-bank-api] info: GET /account
+2022-05-04T12:46:21.363Z [my-bank-api] info: API Started
+2022-05-04T12:47:09.331Z [my-bank-api] info: API Started
+2022-05-04T12:47:18.799Z [my-bank-api] info: API Started
+2022-05-04T12:47:30.952Z [my-bank-api] info: API Started
+2022-05-04T12:47:38.666Z [my-bank-api] info: API Started
+2022-05-04T12:47:46.483Z [my-bank-api] info: API Started
+2022-05-04T12:47:49.025Z [my-bank-api] info: API Started
+2022-05-04T12:49:00.256Z [my-bank-api] info: API Started
+2022-05-04T12:49:12.184Z [my-bank-api] info: GET /account
+2022-05-04T12:49:22.917Z [my-bank-api] info: PUT /account - {"id":2,"name":"Elite Death","balance":10000}
+2022-05-04T12:50:53.920Z [my-bank-api] info: API Started
+2022-05-04T12:50:58.878Z [my-bank-api] info: API Started
+2022-05-04T12:51:05.632Z [my-bank-api] info: API Started
+2022-05-04T12:51:11.493Z [my-bank-api] info: API Started
+2022-05-04T12:51:15.195Z [my-bank-api] info: API Started
+2022-05-04T12:51:44.863Z [my-bank-api] info: API Started
+2022-05-04T12:52:14.229Z [my-bank-api] error: PATCH - /account Wrong ID
+2022-05-04T12:52:28.291Z [my-bank-api] info: PATCH /account/updatebalance - {"id":4,"balance":55}
+2022-05-04T12:53:07.005Z [my-bank-api] info: API Started
+2022-05-04T12:54:50.149Z [my-bank-api] info: API Started
+2022-05-04T12:55:17.373Z [my-bank-api] info: API Started
+2022-05-04T12:55:23.176Z [my-bank-api] info: API Started
+2022-05-04T12:55:29.237Z [my-bank-api] info: API Started
+2022-05-04T12:55:34.361Z [my-bank-api] info: API Started
+2022-05-04T12:55:44.519Z [my-bank-api] info: API Started
+2022-05-04T12:56:14.200Z [my-bank-api] info: PATCH /account/updatebalance - {"id":4,"balance":554}
+2022-05-04T12:56:20.069Z [my-bank-api] info: GET /account
+2022-05-04T12:56:26.868Z [my-bank-api] info: DELETE /account - {"id":2,"name":"Elite Death","balance":10000}
+2022-05-04T12:56:30.236Z [my-bank-api] info: GET /account
+2022-05-04T12:56:40.878Z [my-bank-api] info: POST /account - {"id":6,"name":"Beltrano","balance":12744}
+2022-05-04T12:56:45.812Z [my-bank-api] info: GET /account
+2022-05-04T12:57:18.324Z [my-bank-api] info: PUT /account - {"id":4,"name":"Fulano da Silva","balance":554}
+2022-05-04T12:57:23.549Z [my-bank-api] info: GET /account
+2022-05-04T12:57:32.534Z [my-bank-api] info: GET /account/:id - {"id":4,"name":"Fulano da Silva","balance":554}
+2022-05-04T12:57:37.073Z [my-bank-api] info: GET /account/:id - {"id":6,"name":"Beltrano","balance":12744}
+2022-05-04T12:57:47.383Z [my-bank-api] info: PATCH /account/updatebalance - {"id":4,"balance":5}
+2022-05-04T13:00:52.206Z [my-bank-api] info: API Started
+2022-05-04T13:01:04.468Z [my-bank-api] info: API Started
+2022-05-04T13:02:03.260Z [my-bank-api] info: API Started
+2022-05-04T13:02:17.121Z [my-bank-api] info: API Started
+2022-05-04T13:02:21.751Z [my-bank-api] info: API Started
+2022-05-04T13:02:41.194Z [my-bank-api] info: API Started
+2022-05-04T13:02:46.219Z [my-bank-api] info: API Started
+2022-05-04T13:03:29.480Z [my-bank-api] info: API Started
+2022-05-04T13:03:36.325Z [my-bank-api] info: API Started
+2022-05-04T13:03:42.503Z [my-bank-api] info: API Started
+2022-05-04T13:03:49.608Z [my-bank-api] info: API Started
+2022-05-04T13:04:07.509Z [my-bank-api] info: API Started
+2022-05-04T13:04:41.138Z [my-bank-api] info: API Started
+2022-05-04T13:04:47.581Z [my-bank-api] info: API Started
+2022-05-04T13:04:55.161Z [my-bank-api] info: API Started
+2022-05-04T13:05:04.140Z [my-bank-api] info: API Started
+2022-05-04T13:05:08.017Z [my-bank-api] info: API Started
+2022-05-04T13:05:33.203Z [my-bank-api] info: API Started
+2022-05-04T13:05:45.661Z [my-bank-api] info: API Started
+2022-05-04T13:06:06.775Z [my-bank-api] info: API Started
+2022-05-04T13:06:14.919Z [my-bank-api] info: API Started
+2022-05-04T13:06:32.859Z [my-bank-api] info: API Started
+2022-05-04T13:06:43.836Z [my-bank-api] info: API Started
+2022-05-04T13:06:50.153Z [my-bank-api] info: API Started
+2022-05-04T13:07:11.371Z [my-bank-api] info: API Started
+2022-05-04T13:07:27.806Z [my-bank-api] info: API Started
+2022-05-04T13:08:10.591Z [my-bank-api] info: API Started
+2022-05-04T13:08:24.436Z [my-bank-api] info: API Started
+2022-05-04T13:08:55.531Z [my-bank-api] info: POST /account - {"id":7,"name":"Maria da Silva","balance":2000}
+2022-05-04T13:08:58.966Z [my-bank-api] info: GET /account
+2022-05-04T13:11:42.778Z [my-bank-api] info: API Started
+2022-05-04T13:12:19.866Z [my-bank-api] info: API Started
+2022-05-04T13:12:41.389Z [my-bank-api] info: API Started
+2022-05-04T13:13:12.376Z [my-bank-api] info: API Started
+2022-05-04T13:13:25.057Z [my-bank-api] info: API Started
+2022-05-04T13:13:29.871Z [my-bank-api] info: API Started
+2022-05-04T13:13:32.861Z [my-bank-api] info: API Started
+2022-05-04T13:13:49.252Z [my-bank-api] info: API Started
+2022-05-04T13:13:56.829Z [my-bank-api] info: API Started
+2022-05-04T13:14:01.101Z [my-bank-api] info: API Started
+2022-05-04T13:14:51.360Z [my-bank-api] info: API Started
+2022-05-04T13:14:54.030Z [my-bank-api] info: GET /account
+2022-05-04T13:15:22.292Z [my-bank-api] info: API Started
+2022-05-04T13:15:36.815Z [my-bank-api] info: API Started
+2022-05-04T13:15:43.580Z [my-bank-api] info: API Started
+2022-05-04T13:15:48.487Z [my-bank-api] info: API Started
+2022-05-04T13:16:01.163Z [my-bank-api] info: API Started
+2022-05-04T13:16:23.184Z [my-bank-api] info: API Started
+2022-05-04T13:16:26.671Z [my-bank-api] info: API Started
+2022-05-04T13:16:32.261Z [my-bank-api] info: API Started
+2022-05-04T13:16:35.206Z [my-bank-api] info: API Started
+2022-05-04T13:16:50.394Z [my-bank-api] error: GET - /account id is not defined
+2022-05-04T13:17:02.140Z [my-bank-api] info: API Started
+2022-05-04T13:17:04.278Z [my-bank-api] error: GET - /account account is not defined
+2022-05-04T13:17:18.943Z [my-bank-api] info: API Started
+2022-05-04T13:17:26.812Z [my-bank-api] info: GET /account/:id - {"id":6,"name":"Beltrano","balance":12744}
+2022-05-04T13:17:50.902Z [my-bank-api] info: API Started
+2022-05-04T13:17:56.032Z [my-bank-api] info: API Started
+2022-05-04T13:18:03.648Z [my-bank-api] info: API Started
+2022-05-04T13:18:23.148Z [my-bank-api] info: API Started
+2022-05-04T13:18:32.057Z [my-bank-api] info: API Started
+2022-05-04T13:18:40.005Z [my-bank-api] info: API Started
+2022-05-04T13:18:57.135Z [my-bank-api] info: API Started
+2022-05-04T13:19:00.133Z [my-bank-api] error: DELETE - /account account is not defined
+2022-05-04T13:19:44.215Z [my-bank-api] info: API Started
+2022-05-04T13:19:44.602Z [my-bank-api] error: DELETE - /account account is not defined
+2022-05-04T13:20:20.009Z [my-bank-api] info: API Started
+2022-05-04T13:20:27.077Z [my-bank-api] error: DELETE - /account account is not defined
+2022-05-04T13:20:33.101Z [my-bank-api] info: GET /account
+2022-05-04T13:21:45.308Z [my-bank-api] info: API Started
+2022-05-04T13:21:51.848Z [my-bank-api] info: API Started
+2022-05-04T13:21:56.696Z [my-bank-api] info: DELETE /account - {"id":5,"name":"Ciclano","balance":127}
+2022-05-04T13:22:01.541Z [my-bank-api] info: GET /account
+2022-05-04T13:26:39.248Z [my-bank-api] info: API Started
+2022-05-04T13:27:32.637Z [my-bank-api] info: API Started
+2022-05-04T13:27:36.524Z [my-bank-api] info: API Started
+2022-05-04T13:27:47.886Z [my-bank-api] info: API Started
+2022-05-04T13:27:53.157Z [my-bank-api] info: API Started
+2022-05-04T13:28:18.814Z [my-bank-api] info: API Started
+2022-05-04T13:28:22.993Z [my-bank-api] info: API Started
+2022-05-04T13:28:30.126Z [my-bank-api] info: API Started
+2022-05-04T13:28:33.541Z [my-bank-api] info: API Started
+2022-05-04T13:28:36.056Z [my-bank-api] info: API Started
+2022-05-04T13:28:41.422Z [my-bank-api] info: API Started
+2022-05-04T13:30:44.213Z [my-bank-api] info: API Started
+2022-05-04T13:31:04.492Z [my-bank-api] info: API Started
+2022-05-04T13:31:15.180Z [my-bank-api] info: API Started
+2022-05-04T13:31:26.832Z [my-bank-api] info: PUT /account - {"id":4,"name":"Fulano Silva","balance":55}
+2022-05-04T13:31:30.082Z [my-bank-api] info: GET /account
+2022-05-04T13:32:14.373Z [my-bank-api] info: API Started
+2022-05-04T13:32:16.649Z [my-bank-api] info: API Started
+2022-05-04T13:32:23.918Z [my-bank-api] info: API Started
+2022-05-04T13:32:30.995Z [my-bank-api] info: API Started
+2022-05-04T13:32:47.731Z [my-bank-api] info: API Started
+2022-05-04T13:32:54.941Z [my-bank-api] info: API Started
+2022-05-04T13:33:01.572Z [my-bank-api] info: API Started
+2022-05-04T13:33:05.558Z [my-bank-api] info: API Started
+2022-05-04T13:33:16.149Z [my-bank-api] info: API Started
+2022-05-04T13:33:26.590Z [my-bank-api] info: API Started
+2022-05-04T13:33:30.034Z [my-bank-api] info: API Started
+2022-05-04T13:33:48.665Z [my-bank-api] info: API Started
+2022-05-04T13:33:51.984Z [my-bank-api] info: API Started
+2022-05-04T13:34:04.569Z [my-bank-api] info: API Started
+2022-05-04T13:34:31.532Z [my-bank-api] info: PATCH /account/updatebalance - {"id":7,"balance":9000}
+2022-05-04T13:34:37.573Z [my-bank-api] info: GET /account
+2022-05-04T13:35:13.178Z [my-bank-api] info: API Started
+2022-05-04T13:35:15.432Z [my-bank-api] info: API Started
+2022-05-04T13:35:42.786Z [my-bank-api] info: API Started
+2022-05-04T13:35:49.582Z [my-bank-api] info: API Started
+2022-05-04T13:35:54.500Z [my-bank-api] info: API Started
+2022-05-04T13:35:54.651Z [my-bank-api] info: GET /account
+2022-05-04T13:38:16.519Z [my-bank-api] info: API Started
+2022-05-04T13:38:16.783Z [my-bank-api] info: GET /account
+2022-05-04T13:38:33.994Z [my-bank-api] info: API Started
+2022-05-04T13:38:40.085Z [my-bank-api] info: API Started
+2022-05-04T13:38:40.803Z [my-bank-api] error: GET - /account account is not defined
+2022-05-04T13:38:45.081Z [my-bank-api] error: GET - /account account is not defined
+2022-05-04T13:39:05.424Z [my-bank-api] info: API Started
+2022-05-04T13:39:10.225Z [my-bank-api] info: API Started
+2022-05-04T13:39:26.941Z [my-bank-api] info: GET /account/:id - undefined
+2022-05-04T13:39:32.208Z [my-bank-api] info: GET /account/:id - undefined
+2022-05-04T13:40:43.203Z [my-bank-api] info: GET /account/:id - {"id":4,"name":"Fulano Silva","balance":55}
+2022-05-04T13:44:10.055Z [my-bank-api] info: GET /account/:id - undefined
+2022-05-04T13:46:11.069Z [my-bank-api] info: API Started
+2022-05-04T13:46:28.677Z [my-bank-api] info: API Started
+2022-05-04T13:46:36.482Z [my-bank-api] info: API Started
+2022-05-04T13:46:36.609Z [my-bank-api] error: GET - /account Wrong ID
+2022-05-04T13:46:42.503Z [my-bank-api] error: DELETE - /account Wrong ID
+2022-05-04T13:46:50.121Z [my-bank-api] info: DELETE /account - {"id":7,"name":"Maria da Silva","balance":9000}
+2022-05-04T13:47:00.524Z [my-bank-api] info: GET /account/:id - {"id":4,"name":"Fulano Silva","balance":55}
+2022-05-04T13:48:32.455Z [my-bank-api] info: API Started
+2022-05-04T16:26:03.038Z [my-bank-api] info: API Started
+2022-05-04T16:26:29.671Z [my-bank-api] info: API Started
+2022-05-04T16:27:06.821Z [my-bank-api] info: API Started
+2022-05-04T16:27:21.822Z [my-bank-api] info: API Started
+2022-05-04T16:27:34.086Z [my-bank-api] info: API Started
+2022-05-04T16:27:55.974Z [my-bank-api] info: API Started
+2022-05-04T16:28:05.321Z [my-bank-api] info: API Started
+2022-05-04T16:28:12.022Z [my-bank-api] info: API Started
+2022-05-04T16:28:31.673Z [my-bank-api] info: API Started
+2022-05-04T16:28:40.877Z [my-bank-api] info: API Started
+2022-05-04T16:29:18.454Z [my-bank-api] info: API Started
+2022-05-04T16:30:36.394Z [my-bank-api] info: API Started
+2022-05-04T16:31:55.272Z [my-bank-api] info: API Started
+2022-05-04T16:32:20.478Z [my-bank-api] info: API Started
+2022-05-04T16:32:42.888Z [my-bank-api] error: GET - /account accountRepository.getAccounts is not a function
+2022-05-04T16:33:22.514Z [my-bank-api] info: API Started
+2022-05-04T16:33:46.064Z [my-bank-api] info: GET /account
+2022-05-04T16:34:02.687Z [my-bank-api] info: POST /account - {"id":8,"name":"Fulano","balance":2034}
+2022-05-04T16:34:06.922Z [my-bank-api] info: GET /account
+2022-05-04T16:34:40.644Z [my-bank-api] info: API Started
+2022-05-04T16:34:56.497Z [my-bank-api] info: API Started
+2022-05-04T16:35:02.423Z [my-bank-api] info: API Started
+2022-05-04T16:35:29.831Z [my-bank-api] info: API Started
+2022-05-04T16:35:59.366Z [my-bank-api] info: API Started
+2022-05-04T16:37:54.554Z [my-bank-api] info: API Started
+2022-05-04T16:38:09.019Z [my-bank-api] info: API Started
+2022-05-04T16:39:30.319Z [my-bank-api] info: API Started
+2022-05-04T16:39:34.442Z [my-bank-api] info: API Started
+2022-05-04T16:39:39.634Z [my-bank-api] info: API Started
+2022-05-04T16:40:46.201Z [my-bank-api] info: API Started
+2022-05-04T16:40:50.393Z [my-bank-api] info: API Started
+2022-05-04T16:41:04.568Z [my-bank-api] info: API Started
+2022-05-04T16:41:52.110Z [my-bank-api] info: API Started
+2022-05-04T16:42:07.793Z [my-bank-api] info: API Started
+2022-05-04T16:42:10.780Z [my-bank-api] info: API Started
+2022-05-04T16:42:13.235Z [my-bank-api] info: API Started
+2022-05-04T16:42:17.228Z [my-bank-api] info: API Started
+2022-05-04T16:42:24.844Z [my-bank-api] info: API Started
+2022-05-04T16:42:28.554Z [my-bank-api] info: API Started
+2022-05-04T16:42:49.972Z [my-bank-api] info: API Started
+2022-05-04T16:43:00.759Z [my-bank-api] info: API Started
+2022-05-04T16:43:10.795Z [my-bank-api] info: API Started
+2022-05-04T16:43:25.615Z [my-bank-api] info: GET /account
+2022-05-04T16:43:32.145Z [my-bank-api] info: GET /account/:id - {"id":8,"name":"Fulano","balance":2034}
+2022-05-04T16:43:35.924Z [my-bank-api] error: GET - /account Wrong ID
+2022-05-04T16:43:49.947Z [my-bank-api] info: GET /account
+2022-05-04T16:43:55.200Z [my-bank-api] error: DELETE - /account accountRepository.deleteAccount is not a function
+2022-05-04T16:44:16.530Z [my-bank-api] info: API Started
+2022-05-04T16:44:24.945Z [my-bank-api] error: DELETE - /account Assignment to constant variable.
+2022-05-04T16:44:52.808Z [my-bank-api] info: API Started
+2022-05-04T16:44:54.956Z [my-bank-api] error: DELETE - /account Assignment to constant variable.
+2022-05-04T16:45:06.266Z [my-bank-api] info: API Started
+2022-05-04T16:45:21.666Z [my-bank-api] info: API Started
+2022-05-04T16:45:23.521Z [my-bank-api] error: DELETE - /account data is not defined
+2022-05-04T16:46:31.161Z [my-bank-api] error: DELETE - /account data is not defined
+2022-05-04T16:49:57.186Z [my-bank-api] info: API Started
+2022-05-04T16:50:19.249Z [my-bank-api] info: API Started
+2022-05-04T16:50:53.127Z [my-bank-api] info: API Started
+2022-05-04T16:51:03.139Z [my-bank-api] info: API Started
+2022-05-04T16:51:11.275Z [my-bank-api] info: API Started
+2022-05-04T16:51:18.716Z [my-bank-api] info: API Started
+2022-05-04T16:51:36.688Z [my-bank-api] info: DELETE /account - {"id":8,"name":"Fulano","balance":2034}
+2022-05-04T16:54:09.569Z [my-bank-api] info: API Started
+2022-05-04T16:54:14.349Z [my-bank-api] info: API Started
+2022-05-04T16:54:57.156Z [my-bank-api] info: API Started
+2022-05-04T16:55:07.708Z [my-bank-api] info: API Started
+2022-05-04T16:55:13.832Z [my-bank-api] info: API Started
+2022-05-04T16:56:04.775Z [my-bank-api] info: PUT /account - {"id":4,"name":"Fulano Silva Sauro","balance":123}
+2022-05-04T16:56:15.357Z [my-bank-api] info: GET /account
+2022-05-04T16:56:42.432Z [my-bank-api] error: POST - /account account is not defined
+2022-05-04T16:57:40.491Z [my-bank-api] error: POST - /account account is not defined
+2022-05-04T16:59:20.077Z [my-bank-api] info: API Started
+2022-05-04T16:59:23.176Z [my-bank-api] error: POST - /account account is not defined
+2022-05-04T16:59:50.121Z [my-bank-api] info: PUT /account - {"id":4,"name":"Fulano Silva Sauro","balance":12388}
+2022-05-04T16:59:57.580Z [my-bank-api] info: GET /account
+2022-05-04T17:00:06.221Z [my-bank-api] error: POST - /account account is not defined
+2022-05-04T17:00:31.173Z [my-bank-api] info: API Started
+2022-05-04T17:00:33.178Z [my-bank-api] error: POST - /account account is not defined
+2022-05-04T17:00:55.837Z [my-bank-api] info: API Started
+2022-05-04T17:01:01.432Z [my-bank-api] error: POST - /account Cannot access 'account' before initialization
+2022-05-04T17:01:25.760Z [my-bank-api] info: API Started
+2022-05-04T17:01:26.420Z [my-bank-api] error: POST - /account Cannot access 'account' before initialization
+2022-05-04T17:01:37.990Z [my-bank-api] info: API Started
+2022-05-04T17:01:40.880Z [my-bank-api] error: POST - /account Cannot access 'account' before initialization
+2022-05-04T17:02:34.810Z [my-bank-api] info: API Started
+2022-05-04T17:03:13.651Z [my-bank-api] info: API Started
+2022-05-04T17:03:20.225Z [my-bank-api] info: POST /account - {"id":9,"name":"Fulano Cruz","balance":20}
+2022-05-04T17:03:24.100Z [my-bank-api] info: GET /account
+2022-05-04T17:05:04.134Z [my-bank-api] info: API Started
+2022-05-04T17:05:09.339Z [my-bank-api] info: API Started
+2022-05-04T17:05:13.969Z [my-bank-api] info: API Started
+2022-05-04T17:05:51.259Z [my-bank-api] info: API Started
+2022-05-04T17:05:54.709Z [my-bank-api] info: API Started
+2022-05-04T17:05:59.033Z [my-bank-api] info: API Started
+2022-05-04T17:06:05.721Z [my-bank-api] info: API Started
+2022-05-04T17:06:11.473Z [my-bank-api] info: API Started
+2022-05-04T17:06:15.342Z [my-bank-api] info: API Started
+2022-05-04T17:06:19.435Z [my-bank-api] info: API Started
+2022-05-04T17:06:39.711Z [my-bank-api] info: PATCH /account/updatebalance - {"id":4,"balance":90}
+2022-05-04T17:06:43.091Z [my-bank-api] info: GET /account
+2022-05-04T17:07:01.121Z [my-bank-api] info: API Started
+2022-05-04T17:13:50.590Z [my-bank-api] info: API Started
+2022-05-04T17:13:58.931Z [my-bank-api] info: API Started
+2022-05-04T17:14:17.313Z [my-bank-api] info: API Started
+2022-05-04T17:15:12.423Z [my-bank-api] info: API Started
+2022-05-04T17:15:29.567Z [my-bank-api] info: API Started
+2022-05-04T17:15:40.816Z [my-bank-api] info: PATCH /account/updatebalance - {"id":4,"balance":903}
+2022-05-04T17:15:44.210Z [my-bank-api] info: GET /account
+2022-05-04T17:16:04.026Z [my-bank-api] info: API Started
+2022-05-04T17:16:15.852Z [my-bank-api] info: DELETE /account - {"id":4,"balance":903}
+2022-05-04T17:16:37.497Z [my-bank-api] info: POST /account - {"id":10,"name":"Marciano","balance":201}
+2022-05-04T17:16:42.083Z [my-bank-api] info: GET /account
+2022-05-04T17:19:43.241Z [my-bank-api] info: API Started
+2022-05-04T17:19:45.558Z [my-bank-api] info: PATCH /account/updatebalance - {"id":10,"balance":903}
+2022-05-04T17:19:49.270Z [my-bank-api] info: GET /account
+2022-05-05T10:22:14.106Z [my-bank-api] info: API Started
+2022-05-05T10:31:22.826Z [my-bank-api] info: API Started
+2022-05-05T10:32:50.950Z [my-bank-api] info: API Started
+2022-05-05T10:34:09.142Z [my-bank-api] info: API Started
+2022-05-05T10:34:51.917Z [my-bank-api] info: API Started
+2022-05-05T15:41:36.726Z [my-bank-api] info: API Started
+2022-05-05T15:43:15.764Z [my-bank-api] info: API Started
+2022-05-05T15:45:26.509Z [my-bank-api] info: API Started
+2022-05-05T15:46:16.820Z [my-bank-api] info: API Started
+2022-05-05T15:46:22.357Z [my-bank-api] info: API Started
+2022-05-05T15:46:32.284Z [my-bank-api] info: API Started
+2022-05-05T15:46:39.226Z [my-bank-api] info: API Started
+2022-05-05T15:46:47.249Z [my-bank-api] info: API Started
+2022-05-05T15:46:53.992Z [my-bank-api] info: API Started
+2022-05-05T15:46:59.818Z [my-bank-api] info: API Started
+2022-05-05T15:47:04.280Z [my-bank-api] info: API Started
+2022-05-05T15:47:46.356Z [my-bank-api] info: API Started
+2022-05-05T15:48:25.200Z [my-bank-api] info: API Started
+2022-05-05T15:48:33.905Z [my-bank-api] info: API Started
+2022-05-05T15:48:40.280Z [my-bank-api] info: API Started
+2022-05-05T15:59:59.086Z [my-bank-api] info: API Started
+2022-05-05T16:10:22.958Z [my-bank-api] info: API Started
+2022-05-05T16:10:43.629Z [my-bank-api] info: API Started
+2022-05-05T16:10:51.203Z [my-bank-api] info: API Started
+2022-05-05T16:11:19.718Z [my-bank-api] info: API Started
+2022-05-05T16:11:25.675Z [my-bank-api] info: API Started
+2022-05-05T16:11:35.604Z [my-bank-api] info: API Started
+2022-05-05T16:11:39.891Z [my-bank-api] info: API Started
+2022-05-05T16:11:48.783Z [my-bank-api] info: API Started
+2022-05-05T16:14:42.674Z [my-bank-api] info: API Started
+2022-05-05T16:15:12.875Z [my-bank-api] info: API Started
+2022-05-05T16:16:03.942Z [my-bank-api] info: API Started
+2022-05-05T16:17:10.866Z [my-bank-api] info: API Started
+2022-05-05T16:17:29.334Z [my-bank-api] info: API Started
+2022-05-05T16:17:45.168Z [my-bank-api] info: API Started
+2022-05-05T16:19:58.060Z [my-bank-api] info: API Started
+2022-05-05T16:20:07.165Z [my-bank-api] info: API Started
+2022-05-05T16:20:24.713Z [my-bank-api] info: API Started
+2022-05-05T16:20:39.245Z [my-bank-api] info: API Started
+2022-05-05T16:21:35.887Z [my-bank-api] info: API Started
+2022-05-05T16:21:44.119Z [my-bank-api] info: API Started
+2022-05-05T16:22:04.917Z [my-bank-api] info: API Started
+2022-05-05T16:22:11.726Z [my-bank-api] info: API Started
+2022-05-05T16:22:30.488Z [my-bank-api] info: API Started
+2022-05-05T16:23:41.270Z [my-bank-api] info: API Started
+2022-05-05T16:23:52.342Z [my-bank-api] info: API Started
+2022-05-05T16:24:08.316Z [my-bank-api] info: API Started
+2022-05-05T16:24:17.139Z [my-bank-api] info: API Started
+2022-05-05T16:24:22.036Z [my-bank-api] info: API Started
+2022-05-05T16:24:29.069Z [my-bank-api] info: API Started
+2022-05-05T16:24:43.323Z [my-bank-api] info: API Started
+2022-05-05T16:24:49.785Z [my-bank-api] info: API Started
+2022-05-05T16:25:03.627Z [my-bank-api] info: API Started
+2022-05-05T16:25:21.183Z [my-bank-api] info: API Started
+2022-05-05T16:25:37.987Z [my-bank-api] info: API Started
+2022-05-05T16:25:49.641Z [my-bank-api] info: API Started
+2022-05-05T16:26:09.860Z [my-bank-api] info: API Started
+2022-05-05T16:26:21.312Z [my-bank-api] info: API Started
+2022-05-05T16:26:27.196Z [my-bank-api] info: API Started
+2022-05-05T16:26:31.115Z [my-bank-api] info: API Started
+2022-05-05T16:26:46.738Z [my-bank-api] info: API Started
+2022-05-05T16:26:55.718Z [my-bank-api] info: API Started
+2022-05-05T16:27:10.412Z [my-bank-api] info: API Started
+2022-05-05T16:27:26.975Z [my-bank-api] info: API Started
+2022-05-05T16:28:16.871Z [my-bank-api] info: API Started
+2022-05-05T16:28:25.930Z [my-bank-api] info: API Started
+2022-05-05T16:29:00.353Z [my-bank-api] info: API Started
+2022-05-05T16:29:21.995Z [my-bank-api] info: API Started
+2022-05-05T16:29:41.302Z [my-bank-api] info: API Started
+2022-05-05T16:29:47.111Z [my-bank-api] info: API Started
+2022-05-05T16:30:02.394Z [my-bank-api] info: API Started
+2022-05-05T16:30:05.579Z [my-bank-api] info: API Started
+2022-05-05T16:30:39.757Z [my-bank-api] info: API Started
+2022-05-05T16:30:46.115Z [my-bank-api] info: API Started
+2022-05-05T16:30:57.559Z [my-bank-api] info: API Started
+2022-05-05T16:34:47.789Z [my-bank-api] info: API Started
+2022-05-05T16:40:32.605Z [my-bank-api] info: API Started
+2022-05-05T16:41:13.565Z [my-bank-api] info: API Started
+2022-05-05T16:41:39.131Z [my-bank-api] info: API Started
+2022-05-05T16:41:46.595Z [my-bank-api] info: API Started
+2022-05-05T16:42:07.341Z [my-bank-api] info: API Started
+2022-05-05T16:45:09.310Z [my-bank-api] info: API Started
+2022-05-05T16:45:27.832Z [my-bank-api] info: API Started
+2022-05-05T16:45:36.554Z [my-bank-api] info: API Started
+2022-05-05T16:45:41.700Z [my-bank-api] info: API Started
+2022-05-05T16:45:45.772Z [my-bank-api] info: API Started
+2022-05-05T16:45:59.208Z [my-bank-api] info: API Started
+2022-05-05T16:46:23.475Z [my-bank-api] info: API Started
+2022-05-05T16:46:41.328Z [my-bank-api] info: API Started
+2022-05-05T16:46:52.423Z [my-bank-api] info: API Started
+2022-05-05T16:47:02.198Z [my-bank-api] info: API Started
+2022-05-05T16:47:32.203Z [my-bank-api] info: API Started
+2022-05-05T16:47:35.188Z [my-bank-api] info: API Started
+2022-05-05T16:47:42.484Z [my-bank-api] info: API Started
+2022-05-05T16:47:46.032Z [my-bank-api] info: API Started
+2022-05-05T16:47:54.553Z [my-bank-api] info: API Started
+2022-05-05T16:48:15.629Z [my-bank-api] info: API Started
+2022-05-05T16:48:23.386Z [my-bank-api] info: API Started
+2022-05-05T16:48:27.875Z [my-bank-api] info: API Started
+2022-05-05T16:48:55.579Z [my-bank-api] info: API Started
+2022-05-05T16:49:05.416Z [my-bank-api] info: API Started
+2022-05-05T16:49:21.313Z [my-bank-api] info: API Started
+2022-05-05T16:49:25.222Z [my-bank-api] info: API Started
+2022-05-05T16:49:52.333Z [my-bank-api] info: API Started
+2022-05-05T16:49:59.811Z [my-bank-api] info: API Started
+2022-05-05T16:50:06.108Z [my-bank-api] info: API Started
+2022-05-05T16:50:31.652Z [my-bank-api] info: API Started
+2022-05-05T16:50:41.299Z [my-bank-api] info: API Started
+2022-05-05T16:50:45.688Z [my-bank-api] info: API Started
+2022-05-05T16:51:16.824Z [my-bank-api] info: API Started
+2022-05-05T16:51:22.719Z [my-bank-api] info: API Started
+2022-05-05T16:51:28.082Z [my-bank-api] info: API Started
+2022-05-05T16:51:41.071Z [my-bank-api] info: API Started
+2022-05-05T16:51:47.037Z [my-bank-api] info: API Started
+2022-05-05T16:51:53.779Z [my-bank-api] info: API Started
+2022-05-05T16:52:00.187Z [my-bank-api] info: API Started
+2022-05-05T16:52:07.198Z [my-bank-api] info: API Started
+2022-05-05T16:52:28.137Z [my-bank-api] info: API Started
+2022-05-05T16:53:14.385Z [my-bank-api] info: API Started
+2022-05-05T16:53:21.984Z [my-bank-api] info: API Started
+2022-05-05T16:53:25.617Z [my-bank-api] info: API Started
+2022-05-05T16:53:39.351Z [my-bank-api] info: API Started
+2022-05-05T16:53:44.502Z [my-bank-api] info: API Started
+2022-05-05T16:54:04.961Z [my-bank-api] info: API Started
+2022-05-05T16:56:12.987Z [my-bank-api] info: API Started
+2022-05-05T16:57:47.968Z [my-bank-api] info: API Started
+2022-05-05T17:00:09.840Z [my-bank-api] info: API Started
+2022-05-05T17:03:38.651Z [my-bank-api] info: API Started
+2022-05-05T17:04:16.203Z [my-bank-api] info: API Started
+2022-05-05T17:10:12.281Z [my-bank-api] info: GET /account
+2022-05-05T17:16:54.366Z [my-bank-api] info: API Started
+2022-05-05T17:17:12.451Z [my-bank-api] info: API Started
+2022-05-05T17:19:00.076Z [my-bank-api] info: API Started
+2022-05-05T17:21:51.288Z [my-bank-api] info: API Started
+2022-05-05T17:22:08.762Z [my-bank-api] info: API Started
+2022-05-05T17:22:23.007Z [my-bank-api] info: API Started
+2022-05-05T17:22:53.649Z [my-bank-api] info: API Started
+2022-05-05T17:22:58.981Z [my-bank-api] info: API Started
+2022-05-05T17:23:19.741Z [my-bank-api] info: API Started
+2022-05-05T17:23:27.658Z [my-bank-api] info: API Started
+2022-05-05T17:23:38.682Z [my-bank-api] info: API Started
+2022-05-05T17:23:42.896Z [my-bank-api] info: API Started
+2022-05-05T17:23:47.045Z [my-bank-api] info: API Started
+2022-05-05T17:24:03.044Z [my-bank-api] info: API Started
+2022-05-05T17:25:28.000Z [my-bank-api] info: API Started

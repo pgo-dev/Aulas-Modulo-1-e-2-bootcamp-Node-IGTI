@@ -1,0 +1,9 @@
+2022-04-29T16:31:05.215Z [my-app] error: Error log
+2022-04-29T16:31:05.230Z [my-app] warn: Warn log
+2022-04-29T16:31:05.235Z [my-app] info: Info log
+2022-04-29T16:31:05.245Z [my-app] verbose: Verbose log
+2022-04-29T16:31:05.252Z [my-app] debug: Debug log
+2022-04-29T16:31:05.253Z [my-app] silly: Silly log
+2022-04-29T16:31:05.260Z [my-app] info: Hello with parameter
+2022-04-29T16:32:44.214Z [my-app] error: Error log
+2022-04-29T16:32:44.228Z [my-app] warn: Warn log
