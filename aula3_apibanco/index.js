@@ -9,6 +9,8 @@ import { buildSchema } from 'graphql'
 import { graphqlHTTP } from 'express-graphql'
 import accountService from './services/account.services.js'
 import Schema from './schema/index.js'
+import basicAuth from 'express-basic-auth'
+import { allowedNodeEnvironmentFlags } from 'process'
 
 const { readFile, writeFile } = fs
 global.fileName = 'accounts.json'
@@ -72,7 +74,44 @@ const app = express()
 app.use(express.json())
 //app.use(cors())
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument))
-app.use('/account', accountsRouter)
+
+function getRole(username){
+  if(username =='admin'){
+    return 'admin'
+  }else if(username == 'paulo'){
+    return 'role1'
+  }
+}
+
+function authorize(...allowed){
+  const isAllowed = role => allowed.indexOf(role) > -1
+  return (req, res, next) =>{
+    if(req.auth.user){
+      const role = getRole(req.auth.user)
+      if(isAllowed(role)){
+        next()
+      }else{
+        res.status(401).send({message:'Role not allowed'})
+      }
+    }else{
+      res.status(403).send({message:'User not found'})
+    }
+  }
+}
+
+app.use(basicAuth({
+  authorizer:(username, password)=>{
+    const userMatches = basicAuth.safeCompare(username, 'admin')
+    const pwdMatches = basicAuth.safeCompare(password, 'admin')
+
+    const user2Matches = basicAuth.safeCompare(username, 'paulo')
+    const pwd2Matches = basicAuth.safeCompare(password, '1234')
+
+    return userMatches && pwdMatches || user2Matches && pwd2Matches
+  }
+}))
+
+app.use('/account', authorize('admin'), accountsRouter)
 app.use(express.static('public'))
 
 app.use('/graphql', graphqlHTTP({
