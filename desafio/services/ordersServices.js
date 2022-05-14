@@ -1,4 +1,5 @@
 import {promises as fs} from 'fs'
+import { cursorTo } from 'readline'
 const {readFile, writeFile} = fs
 
 async function getOrders(){
@@ -15,25 +16,28 @@ async function getOrderById(id){
   return order
 }
 
-async function totalOrders(key, param){
+async function totalOrdersValue(key, param){
   const orders = await getOrders()
-  let totalOrders = 0 
-  for(let order of orders){
-      for(let k of Object.keys(order)){
-        for(let v of Object.values(order)){
-          if(k.toUpperCase() === key.toUpperCase() && typeof v =='string' && order.delivered == true){
-            if(v.toUpperCase()===param.toUpperCase()){
-              totalOrders += order.value
-            }
-          }
-        }
-      }
+  const ordersValue = orders
+    .filter(obj=>obj[key]===param && obj.delivered == true)
+  let totalOrders = 0
+  for(let i of ordersValue){
+    totalOrders = i.value + totalOrders
   }
+  return totalOrders
+}
+
+async function totalOrdersQuant(key, param){
+  const orders = await getOrders()
+  const ordersValues = orders
+    .filter(obj=>obj[key]===param && obj.delivered == true)
+  let totalOrders = ordersValues.length
   return totalOrders
 }
 
 export default {
   getOrders,
   getOrderById,
-  totalOrders
+  totalOrdersValue,
+  totalOrdersQuant
 }

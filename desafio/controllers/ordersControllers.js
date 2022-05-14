@@ -14,9 +14,9 @@ async function getOrders(req, res, next){
 
 async function totalOrders(req, res, next){
   try{
-    const key = Object.keys(req.body).toString().toUpperCase()
-    const param = Object.values(req.body).toString().toUpperCase()
-    const totalOrders = await ordersServices.totalOrders(key, param)
+    const key = Object.keys(req.body).toString()
+    const param = Object.values(req.body).toString()
+    const totalOrders = await ordersServices.totalOrdersValue(key, param)
     res.send({total: totalOrders})
   }catch(err){
     next(err)
@@ -130,7 +130,7 @@ async function mostOrdered(req, res, next){
 
     let mostOrdereds = []
     for(let product of products){
-      mostOrdereds.push({product, value: await ordersServices.totalOrders("product",product)})
+      mostOrdereds.push({product, value: await ordersServices.totalOrdersQuant("product",product)})
     }
     mostOrdereds.sort((a,b)=>{
       return b.value-a.value
